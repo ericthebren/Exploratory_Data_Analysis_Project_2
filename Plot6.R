@@ -23,7 +23,7 @@ png("plot6.png", width = 600)
 
 ##Create Plot
 PlotData <- ggplot(DataSum, aes(year, Emissions, color = City))
-PlotData + geom_line()+xlab("Year") + ylab("Emissions from Motor Vehicles in Tons")  + ggtitle ("Baltimore Compred to Los Angeles County from 1999 - 2008") +labs(color = "City")
+PlotData + geom_line()+xlab("Year") + ylab("Emissions from Motor Vehicles in Tons")  + ggtitle ("Baltimore Compared to Los Angeles County from 1999 - 2008") +labs(color = "City")
 
 ##Close Graphics Device
 dev.off()

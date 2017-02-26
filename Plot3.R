@@ -14,7 +14,7 @@ png("plot3.png")
 
 ##Create Plot
 PlotData <- ggplot(ByYearandTypeinBalt, aes(year, Emissions, color = type))
-PlotData + geom_line()+xlab("Year") + ylab("Emissions in Tons") + ggtitle("Emissions by Type in Balimore from 1999 - 2008")
+PlotData + geom_line()+xlab("Year") + ylab("Emissions in Tons") + ggtitle("Emissions by Type in Baltimore from 1999 - 2008")
 
 
 ##Close Graphics Device
